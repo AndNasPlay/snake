@@ -1,23 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Snake
 {
-<<<<<<< Updated upstream
-    class MainClass
-    {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
-        }
-    }
-}
-=======
+
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			//Console.SetBufferSize(79, 22);
 
 			Walls walls = new Walls(79, 22);
 			walls.Draw();
@@ -79,4 +73,6 @@ namespace Snake
 
 	}
 }
->>>>>>> Stashed changes
+
+
+
